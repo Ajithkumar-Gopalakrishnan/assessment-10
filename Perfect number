@@ -1,0 +1,29 @@
+num=int(input("Enter the number: "))  
+sum=0  
+for i in range(1,num):  
+    if (num%i==0):  
+        sum=sum+i  
+if(sum==num):  
+    print("perfect number")  
+else:  
+    print(" not a perfect number")
+
+
+Algorithm
+* Get input from the user using num variable
+
+Initialise sum= 0
+
+* Next use for loop for looping function in 
+the range of 1 to num
+
+* If condition is used to check the condition
+ if num% ==0
+
+* Coefficient from the condition is added and 
+stored in the sum 
+
+* Another if condition used to check sum and 
+input number equal or not if the sum and 
+input number are equal it wi print perfect 
+number or else print not perfect number
