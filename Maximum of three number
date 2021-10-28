@@ -1,0 +1,33 @@
+n1=int(input("enter the n1 value:"))
+n2=int(input("enter the n2 value:"))
+n3=int(input("enter the n3 value:"))
+if(n1>n2)and(n1>n3):
+	largest= n1
+elif(n2>n1)and(n2>n3):
+	largest= n2
+elif(n3>n1)and(n3>n2):
+	largest= n3
+print("the largest number is:",largest)
+
+
+Algorithm
+
+* Get first input from user
+
+* Get second input from user
+
+* Get third input from user
+
+* Next use if function to check the condition
+, if n1 greater than other two numbers,if the 
+condition true it will print n1 is larger
+
+* If the condition is false it moves to elif
+ condition it check if n2 greater than other 
+two input it will print n2 is largest number
+
+* If the elif condition is false it moves to 
+another elif condition it check if n3 greater 
+than other two numbers it will print n3 is 
+largest number
+ 
