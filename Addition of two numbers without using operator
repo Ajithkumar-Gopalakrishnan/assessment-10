@@ -1,0 +1,27 @@
+num1=int(input("Enter the first number"))
+num2=int(input("Enter the second number"))
+while num2 !=0:
+        count=num1 & num2
+        num1=num1^num2
+        num2=count << 1
+        
+print("Sum of two numbers are",num1)
+
+
+Algorithm
+*Get input 1 from user
+
+* Get input 2 from user
+
+* While function used for check the condition
+
+* First condition is num2 not equal to 2 ,
+and gate used the value stored in count
+
+* Or gate is used between num1 and num2 the 
+value stored in num1
+
+*The left movement is used in count the value
+ stored in num 2
+
+* Print the sum of two numbers
